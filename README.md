@@ -4,6 +4,8 @@ My notes from studying AWS, written while preparing for and after passing the AW
 
 Each note follows the same philosophy: getting to the heart of a topic, what it does, how, and what does it affect?
 
+*Raw study notes, refined as I review each topic.*
+
 ## Topics
 
 - [Advanced EC2](<Advanced EC2>)
