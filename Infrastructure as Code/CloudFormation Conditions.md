@@ -1,0 +1,12 @@
+
+- Allows a stack to react to certain conditions and make changes to the infrastructure
+- Created in the optional 'Conditions' section of a template
+- Conditions are evaluated to TRUE or FALSE
+- ....processed before resources are created. Affects what resources are created and how 
+- Use the other intrinsic functions: AND, EQUALS, IF, NOT, OR
+- ....associated with logical resources to control if they are created or not
+- e.x. ONEAZ, TWOAZ, THREEAZ - how many AZs to create resources within a stack
+- e.x. Prod or Dev control the size  of instances within a stack
+- 'Conditions' block first - evaluating TRUE/FALSE state of conditions via intrinsic functions
+- When processing 'Resources' if a Condition key/value is present, the resource is only created if the condition if TRUE
+- Can nest conditions together, to activate when a resource is created after a previous condition is OK'd
